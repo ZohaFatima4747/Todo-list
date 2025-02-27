@@ -1,0 +1,122 @@
+
+body{
+  background-color: #cce3de;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-size: medium;
+}
+
+.finished{
+margin-bottom: 20px;
+
+}
+
+
+
+.addtodo{
+  gap: 10px;
+  text-align: center;
+}
+
+
+.text{
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+ 
+}
+
+.text {
+  width: 100%;
+  max-width: 400px;
+}
+
+.todo {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  padding: 10px;
+  width: 100%; 
+  max-width: 600px; 
+  border-bottom: 1px solid #ccc;
+}
+
+
+#list {
+  flex-grow: 1; 
+  white-space: normal; 
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+
+
+.add{
+  background-color: #b0c4b1;
+  padding: 4px;
+  margin: 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.add:hover{
+  background-color: #dedbd2;
+}
+
+h2{
+  font-weight: bold;
+}
+
+.text{
+  padding: 5px;
+}
+
+.heading-1{
+  max-width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading1{
+  margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 20px;
+   background-color: #eaf4f4;
+   min-height: 80vh;
+   width: 50%;
+}
+
+@media (max-width: 768px) {
+  .todo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .heading1 {
+    width: 90%;
+    min-height: auto;
+    padding: 15px;
+  }
+}
+

@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex{
+    align-items: center;
+    gap:30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.home:hover{
+    font-weight: bold;
+    transition: all;
+}
+
+.task:hover{
+    font-weight: bold;
+    transition: all;
+}
+
+
+span{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 40px;
+    align-items: center;
+}
+
+
+.Flex{
+    background-color:#f6fff8 ;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
