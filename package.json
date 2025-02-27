@@ -1,6 +1,7 @@
 {
   "name": "todo",
   "private": true,
+  "homepage": "https://zohafatima4747.github.io/Todo-list/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
